@@ -36,18 +36,13 @@
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: #2F4F4F;
 }
 
 .clear {
   clear: both;
 }
 
-#grid {
-  width: 100%;
-  height: 100%;
-  background-color: red;
-}
 
 body{
     background-color: #D3D3D3;
@@ -84,6 +79,47 @@ body{
     top: 600px;
     background: blue; /* For browsers that do not support gradients */
     background: linear-gradient(to right,  rgb(135,206,250), rgba(135,206,250,0)); /* Standard syntax (must be last) */ /*Standard*/
+}
+
+#wrapper {
+  margin-right: 200px;
+}
+#content {
+    position: relative;
+  float: right;
+  clear: left;
+  background-color: white;
+  top: -180px;
+
+  width: 836px;
+
+}
+
+#sidebar {
+  float: left;
+  width: 430px;
+  height:500px;
+  margin-right: -200px;
+  background-color: #808080;
+}
+#bannerImg{
+    float: right;
+}
+
+.portfolioHeader{
+    text-align: center;
+}
+
+.centerContainer{
+    text-align: center;
+}
+#profilePicture{
+    width: 300px;
+    height: 300px;
+}
+
+.artStatment{
+    margin: 100px;
 }
 
 
