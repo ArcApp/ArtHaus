@@ -17,24 +17,17 @@ h2 {
   width: 40%;
 }
 
-.description {
-  display: block;
-  text-align: center;
-}
 .haiku {
   font-weight: bold;
 }
-.description ol {
-  list-style-type: none;
+
+table {
+  width: 85%;
+  margin: 0 auto;
 }
-.left {
-  text-align: left;
-}
-.center {
+
+td {
   text-align: center;
-}
-.right {
-  text-align: right;
 }
 
 
