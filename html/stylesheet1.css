@@ -95,6 +95,11 @@ body{
 
 }
 
+.caption {
+  display: block;
+  font-size: 1.3em;
+}
+
 #sidebar {
   float: left;
   width: 430px;
